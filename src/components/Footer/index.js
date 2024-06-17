@@ -32,77 +32,75 @@ const Footer = () => {
         <div className="flex-grow flex flex-wrap md:pl-20 -mb-10 md:mt-0 mt-10 md:text-left text-center">
           <div className="lg:w-1/4 md:w-1/2 w-full px-4">
             <h2 className="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">
-              Company
+              ABOUT
             </h2>
             <nav className="list-none mb-10">
               <li>
-                <a className="text-gray-600 hover:text-gray-800">Careers</a>
+                <a  href="https://www.flipkart.com/helpcentre?otracker=${otracker}_navlinks" target="_blank"
+                 className="text-gray-600 hover:text-gray-800">Contact Us</a>
               </li>
               <li>
-                <a className="text-gray-600 hover:text-gray-800">Our Services</a>
+                <a href="https://www.flipkartcareers.com/?otracker=undefined_footer_navlinks#!/" target="_blank" className="text-gray-600 hover:text-gray-800">Careers</a>
               </li>
               <li>
-                <a className="text-gray-600 hover:text-gray-800">Privacy Policy</a>
+                <a href="https://stories.flipkart.com/?otracker=undefined_footer_navlinks" target="_blank" className="text-gray-600 hover:text-gray-800">Stories</a>
               </li>
               <li>
-                <a className="text-gray-600 hover:text-gray-800">Affilate Program</a>
+                <a href="https://www.flipkart.com/corporate-information" target="_blank" className="text-gray-600 hover:text-gray-800">Corporate Information</a>
               </li>
             </nav>
           </div>
           <div className="lg:w-1/4 md:w-1/2 w-full px-4">
             <h2 className="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">
-              Get Help
+              GROUP COMPANIES
             </h2>
             <nav className="list-none mb-10">
               <li>
-                <a className="text-gray-600 hover:text-gray-800">FAQ</a>
+                <a href="https://www.myntra.com/" target="_blank" className="text-gray-600 hover:text-gray-800">Myntra</a>
               </li>
               <li>
-                <a className="text-gray-600 hover:text-gray-800">Shipping</a>
+                <a href="https://www.cleartrip.com/" target="_blank" className="text-gray-600 hover:text-gray-800">Cleartrip</a>
               </li>
               <li>
-                <a className="text-gray-600 hover:text-gray-800">Returns</a>
-              </li>
-              <li>
-                <a className="text-gray-600 hover:text-gray-800">Order Status</a>
+                <a href="https://www.shopsy.in/" target="_blank" className="text-gray-600 hover:text-gray-800">Shospy</a>
               </li>
             </nav>
           </div>
           <div className="lg:w-1/4 md:w-1/2 w-full px-4">
             <h2 className="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">
-              Online Shop
+              HELP
             </h2>
             <nav className="list-none mb-10">
               <li>
-                <a className="text-gray-600 hover:text-gray-800">Watch</a>
+                <a href="https://www.flipkart.com/pages/payments" target="_blank" className="text-gray-600 hover:text-gray-800">Payments</a>
               </li>
               <li>
-                <a className="text-gray-600 hover:text-gray-800">Bag</a>
+                <a href="https://www.flipkart.com/pages/shipping" target="_blank" className="text-gray-600 hover:text-gray-800">Shipping</a>
               </li>
               <li>
-                <a className="text-gray-600 hover:text-gray-800">Shoes</a>
+                <a href="https://www.flipkart.com/helpcentre?catalog=55c9c6edb000002e002c1701&view=CATALOG" target="_blank" className="text-gray-600 hover:text-gray-800">Cancellation & Returns</a>
               </li>
               <li>
-                <a className="text-gray-600 hover:text-gray-800">Dress</a>
+                <a href="https://www.flipkart.com/helpcentre?catalog=55c9c8e2b0000023002c1702&view=CATALOG" target="_blank" className="text-gray-600 hover:text-gray-800">FAQ</a>
               </li>
             </nav>
           </div>
           <div className="lg:w-1/4 md:w-1/2 w-full px-4">
             <h2 className="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">
-              CATEGORIES
+              CUSTOMER POLICY
             </h2>
             <nav className="list-none mb-10">
               <li>
-                <a className="text-gray-600 hover:text-gray-800">Home</a>
+                <a href="https://www.flipkart.com/pages/terms?otracker=undefined_footer_navlinks" target="_blank" className="text-gray-600 hover:text-gray-800">Terms Of Use</a>
               </li>
               <li>
-                <a className="text-gray-600 hover:text-gray-800">Products</a>
+                <a href="https://www.flipkart.com/pages/paymentsecurity?otracker=undefined_footer_navlinks" target="_blank" className="text-gray-600 hover:text-gray-800">Security</a>
               </li>
               <li>
-                <a className="text-gray-600 hover:text-gray-800">About</a>
+                <a href="https://www.flipkart.com/pages/privacypolicy?otracker=undefined_footer_navlinks" target="_blank" className="text-gray-600 hover:text-gray-800">Privacy</a>
               </li>
               <li>
-                <a className="text-gray-600 hover:text-gray-800">Contact</a>
+                <a href="https://www.flipkart.com/sitemap?otracker=undefined_footer_navlinks" target="_blank" className="text-gray-600 hover:text-gray-800">Sitemap</a>
               </li>
             </nav>
           </div>
@@ -122,7 +120,7 @@ const Footer = () => {
             </a>
           </p>
           <span className="inline-flex sm:ml-auto sm:mt-0 mt-2 justify-center sm:justify-start">
-            <a className="text-gray-500">
+            <a href="https://www.facebook.com/" target="_blank" className="text-gray-500">
               <svg
                 fill="currentColor"
                 stroke-linecap="round"
@@ -134,7 +132,7 @@ const Footer = () => {
                 <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
               </svg>
             </a>
-            <a className="ml-3 text-gray-500">
+            <a href="https://x.com/?lang=en" target="_blank"  className="ml-3 text-gray-500">
               <svg
                 fill="currentColor"
                 stroke-linecap="round"
@@ -146,7 +144,7 @@ const Footer = () => {
                 <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
               </svg>
             </a>
-            <a className="ml-3 text-gray-500">
+            <a href="https://www.instagram.com/" target="_blank" className="ml-3 text-gray-500">
               <svg
                 fill="none"
                 stroke="currentColor"
@@ -160,7 +158,7 @@ const Footer = () => {
                 <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
               </svg>
             </a>
-            <a className="ml-3 text-gray-500">
+            <a href="https://www.linkedin.com/uas/login?session_redirect=https%3A%2F%2Fwww.linkedin.com%2Ffeed%2F" target="_blank" className="ml-3 text-gray-500">
               <svg
                 fill="currentColor"
                 stroke="currentColor"
